@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+ <title>What I suppose to eat today </title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+ <link rel="stylesheet" href="css/mealplan.css"/>
+ <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+
+
+ </head>
+ <body>
+   <h1>Are you hungry?</h1>
+
+   <div id="form">
+    <input id="1" type="checkbox" name="ingredients"><br>
+    
+<!--     <input id="2" type="checkbox" name="ingredients">Flour <br>
+    <input id="3" type="checkbox" name="ingredients">Potatoes <br>
+    <input id="4" type="checkbox" name="ingredients">Tomatoes <br>
+    <input id="5" type="checkbox" name="ingredients">Avocado <br>
+    <input id="6" type="checkbox" name="ingredients">Onion <br>
+    <input id="7" type="checkbox" name="ingredients">Pasta <br>
+    <input id="8" type="checkbox" name="ingredients">Garlic <br>
+    <input id="9" type="checkbox" name="ingredients">Aubergine <br>
+    <input id="10" type="checkbox" name="ingredients">Meat <br> -->
+   </div>
+    <button type="submit" onclick="getRecipes()">Submit</button>
+
+   <div class="buttons container">
+     <div class="row">
+       <div class="col-md-3 mx-auto butt" id="buttonbreakfast"></div>
+       <div class="col-md-3 mx-auto butt" id="buttonlunch"></div>
+       <div class="col-md-3 mx-auto butt" id="buttondinner"></div>
+     </div>
+     <div class="row">
+       <button type="button" class="col-md-2 offset-md-1 btn btn-success">Breakfast</button>
+       <button type="button" class="col-md-2 offset-md-2 btn btn-success">Lunch</button>
+       <button type="button" class="col-md-2 offset-md-2 btn btn-success">Dinner</button>
+     </div>
+   </div>
+
+  <script src="js/script.js"></script>
+
+ </body>
+ </html>

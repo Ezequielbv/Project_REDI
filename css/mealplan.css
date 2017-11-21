@@ -1,0 +1,28 @@
+body {
+ background-image: url(../img/bgg.jpeg);
+ background-size: cover;
+ background-position: 50% 50%;
+}
+
+h1 {
+ font-family: 'Baloo Bhai', cursive;
+ font-size: 100px;
+ color: #BDBD4A ;
+ margin-left: 15px;
+}
+
+.buttons {
+ margin: 70px auto;
+ text-align: center;
+}
+
+.btn {
+ margin-top: 20px;
+ font-family: 'Baloo Bhai', cursive;
+}
+
+.butt {
+ font-family: 'Baloo Bhai', cursive;
+ font-size: 35px;
+ color: #BDBD4A ;
+}
