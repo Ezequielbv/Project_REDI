@@ -17,7 +17,7 @@ window.onload = function (){
       4 : {
         name: "Tomatoes"
       },
-      5 : { 
+      5 : {
         name: "avocado"
       },
       6 : {
@@ -43,6 +43,9 @@ window.onload = function (){
       },
       13 : {
         name: "beans"
+      },
+      14: {
+        name: "chickpeas"
       }
     };
 
@@ -160,7 +163,7 @@ window.onload = function (){
   }
 
   function displayRecipes(selectedRecipes) {
-    //Add recipes to HTML 
+    //Add recipes to HTML
     let random = Math.floor(Math.random() * selectedRecipes.length),
       recipeName = selectedRecipes[random].name,
       recipeDescription = selectedRecipes[random].preparation;
