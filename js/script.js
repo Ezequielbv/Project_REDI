@@ -91,6 +91,13 @@ window.onload = function (){
         name: "Potatoes purée",
         preparation: "Bring a pot of salted water to a boil. Add potatoes and cook until tender. <br> In a small saucepan heat butter and milk over low heat until butter is melted. Using a potato masher or electric beater, slowly blend milk mixture into potatoes until smooth and creamy. Season with salt and pepper to taste.",
         picture:""
+      },
+      { //OBJECT RECIPE 7
+        ingredients: ["3", "11"],
+        mealplan: "Breakfast",
+        name: "Coffe",
+        preparation: "Water pure in your cup of coffee.",
+        picture:""
       }
     ];
   }
