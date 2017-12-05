@@ -5,8 +5,9 @@ REDI.noLike = function (recipes, index) {
 	btn.style.display = 'inline';
 	btn.addEventListener('click', function(){
 		recipes.splice(index, 1);
-		REDI.displayRecipes(recipes);
-		btn.style.display = 'none';
+		index = REDI.displayRecipes(recipes);
+		if (recipes.length === 1) {
+			btn.style.display = 'none';
+		}
 	});
-
 };
