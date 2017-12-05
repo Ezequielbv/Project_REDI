@@ -10,6 +10,20 @@ h1 {
  color: #BDBD4A ;
  margin-left: 15px;
 }
+h2 {
+ font-family: 'Baloo Bhai', cursive;
+ font-size: 50px;
+ color: #BDBD4A ;
+ margin-left: 15px;
+}
+
+#recipes {
+	margin: 10px auto;
+	font-size: 25px;
+}
+#description {
+	font-size: 16px;
+}
 
 .buttons {
  margin: 70px auto;
@@ -26,3 +40,8 @@ h1 {
  font-size: 35px;
  color: #BDBD4A ;
 }
+.tags {
+	color: ;
+	padding: 0 10px;
+}
+
