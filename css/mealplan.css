@@ -2,6 +2,8 @@ body {
  background-image: url(../img/bgg.jpeg);
  background-size: cover;
  background-position: 50% 50%;
+ margin-left: 2.5em;
+ margin-right: 2.5em;
 }
 
 h1 {
@@ -35,11 +37,6 @@ h2 {
  font-family: 'Baloo Bhai', cursive;
 }
 
-.butt {
- font-family: 'Baloo Bhai', cursive;
- font-size: 35px;
- color: #BDBD4A ;
-}
 .tags {
 	color: ;
 	padding: 0 10px;
