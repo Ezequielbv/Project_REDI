@@ -45,14 +45,10 @@ REDI.dbInit = function () {
       name: "chickpeas"
     },
     15: {
-<<<<<<< HEAD
-      name: "coffee beans"
-=======
       name: "salmon"
     },
     16: {
       name: "cheese"
->>>>>>> e3b3c7828d887b3bfce847307ff2264e446826b9
     }
   };
 
