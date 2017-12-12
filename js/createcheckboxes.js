@@ -10,8 +10,10 @@ REDI.createCheckboxes = function (IDs, dbIngredients) {
       name = ingredientObj.name;
 
     //HTML that we want to create throught JS:
+    htmlFormInputString += '<div class="col-3">';
     htmlFormInputString += '<input class="" type="checkbox" id="' + ID + '" value="' + ID + '">';
-    htmlFormInputString += '<label class="tags" for="' + ID + '">' + name + '</label>';
+    htmlFormInputString += '<label class="tags checkbox" for="' + ID + '">' + name + '</label>';
+    htmlFormInputString += '</div>';
     // console.log(htmlFormInputString);
   }
 
