@@ -12,7 +12,7 @@ REDI.dbInit = function () {
       name: "potatoes"
     },
     4 : {
-      name: "Tomatoes"
+      name: "tomatoes"
     },
     5 : {
       name: "avocado"
@@ -45,7 +45,14 @@ REDI.dbInit = function () {
       name: "chickpeas"
     },
     15: {
+<<<<<<< HEAD
       name: "coffee beans"
+=======
+      name: "salmon"
+    },
+    16: {
+      name: "cheese"
+>>>>>>> e3b3c7828d887b3bfce847307ff2264e446826b9
     }
   };
 
@@ -65,7 +72,7 @@ REDI.dbInit = function () {
       mealplan: "Lunch",
       name: "Lasagne",
       preparation: "Heat the oil in a large non-stick pan with meat and fry the onions and garlic for 5 mins, stirring frequently until softened. Tip in the courgettes, peppers and tomatoes with the tomato purée, bouillon and chopped basil. Stir well, cover and cook for 5 mins. Don't be tempted to add more liquid as plenty of moisture will come from the veg once they start cooking.",
-      picture:"img2.jpg"
+      picture:"img2.jpeg"
     },
     { //OBJECT RECIPE 3
       ingredients: ["6", "7", "8", "9"],
@@ -79,28 +86,28 @@ REDI.dbInit = function () {
       mealplan: "Breakfast",
       name: "Pancakes",
       preparation: "In a medium bowl, whisk together milk, butter (or oil), and egg. Add dry ingredients to milk mixture; whisk until just moistened (do not overmix; a few small lumps are fine).",
-      picture:""
+      picture:"img4.jpeg"
     },
     { //OBJECT RECIPE 5
       ingredients: ["1", "12", "13"],
       mealplan: "Breakfast",
       name: "Black beans & scrambled egg tacos",
       preparation: "Heat oil in a large nonstick skillet on medium-high heat. Cook onion and garlic for 2 minutes, stirring often, or until beginning to soften. Stir in beans, salsa and cumin; reduce heat to medium-low. Simmer bean mixture, stirring occasionally, for 3 to 5 minutes or until warmed through and slightly thickened.  Remove skillet from heat, stir in lime juice and cover to keep warm.",
-      picture:""
+      picture:"img5.jpg"
     },
     { //OBJECT RECIPE 6
       ingredients: ["3", "11"],
       mealplan: "Dinner",
       name: "Potatoes purée",
       preparation: "Bring a pot of salted water to a boil. Add potatoes and cook until tender. <br> In a small saucepan heat butter and milk over low heat until butter is melted. Using a potato masher or electric beater, slowly blend milk mixture into potatoes until smooth and creamy. Season with salt and pepper to taste.",
-      picture:""
+      picture:"img6.jpeg"
     },
     { //OBJECT RECIPE 7
       ingredients: ["15"],
       mealplan: "Breakfast",
       name: "Coffe",
       preparation: "Water pure in your cup of coffee.",
-      picture:""
+      picture:"img7.jpg"
     }
   ];
 
