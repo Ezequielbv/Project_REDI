@@ -9,6 +9,7 @@ REDI.displayRecipes = function(selectedRecipes) {
   let random = Math.floor(Math.random() * selectedRecipes.length),
     recipeName = selectedRecipes[random].name,
     recipeDescription = selectedRecipes[random].preparation;
+    recipeImage = selectedRecipes[random].picture;
 
   document.getElementById("recipes").innerHTML = recipeName;
   document.getElementById("description").innerHTML = recipeDescription;
