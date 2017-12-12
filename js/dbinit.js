@@ -43,6 +43,9 @@ REDI.dbInit = function () {
     },
     14: {
       name: "chickpeas"
+    },
+    15: {
+      name: "coffee beans"
     }
   };
 
@@ -93,7 +96,7 @@ REDI.dbInit = function () {
       picture:""
     },
     { //OBJECT RECIPE 7
-      ingredients: ["3", "11"],
+      ingredients: ["15"],
       mealplan: "Breakfast",
       name: "Coffe",
       preparation: "Water pure in your cup of coffee.",
@@ -107,4 +110,4 @@ REDI.dbInit = function () {
     dbRecipes: dbRecipes
   };
 
-}
+};
