@@ -1,7 +1,8 @@
 body {
  background-image: url(../img/bgg.jpeg);
  background-size: cover;
- background-position: 50% 50%;
+ background-position: 0% 95%;
+ background-attachment: fixed;
  margin-left: 2.5em;
  margin-right: 2.5em;
 }
@@ -16,7 +17,7 @@ h2 {
  font-family: 'Baloo Bhai', cursive;
  font-size: 50px;
  color: #BDBD4A ;
- margin-left: 15px;
+ margin:15px 0 40px 15px;
 }
 
 #recipes {
@@ -25,11 +26,19 @@ h2 {
 }
 #description {
 	font-size: 16px;
+  font-family: 'Baloo Bhai', cursive;
+  color: black;
+  margin: 0 0 0 0;
+}
+
+#image {
+  margin-left: 5px;
 }
 
 .buttons {
  margin: 70px auto;
  text-align: center;
+
 }
 
 .btn {
@@ -38,7 +47,17 @@ h2 {
 }
 
 .tags {
-	color: ;
 	padding: 0 10px;
 }
 
+.recipe {
+  color:white;
+  background-color: rgba(21, 24, 28, 0.7);
+}
+
+.checkbox {
+  color: grey;
+  font-size: 20px;
+  padding: 10px;
+  font-family: 'Baloo Bhai', cursive;
+}
