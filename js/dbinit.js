@@ -68,7 +68,7 @@ REDI.dbInit = function () {
       mealplan: "Lunch",
       name: "Lasagne",
       preparation: "Heat the oil in a large non-stick pan with meat and fry the onions and garlic for 5 mins, stirring frequently until softened. Tip in the courgettes, peppers and tomatoes with the tomato purée, bouillon and chopped basil. Stir well, cover and cook for 5 mins. Don't be tempted to add more liquid as plenty of moisture will come from the veg once they start cooking.",
-      picture:"img2.jpeg"
+      picture:"img2.jpg"
     },
     { //OBJECT RECIPE 3
       ingredients: ["6", "7", "8", "9"],
@@ -82,7 +82,7 @@ REDI.dbInit = function () {
       mealplan: "Breakfast",
       name: "Pancakes",
       preparation: "In a medium bowl, whisk together milk, butter (or oil), and egg. Add dry ingredients to milk mixture; whisk until just moistened (do not overmix; a few small lumps are fine).",
-      picture:"img4.jpeg"
+      picture:"img4.jpg"
     },
     { //OBJECT RECIPE 5
       ingredients: ["1", "12", "13"],
@@ -96,7 +96,7 @@ REDI.dbInit = function () {
       mealplan: "Dinner",
       name: "Potatoes purée",
       preparation: "Bring a pot of salted water to a boil. Add potatoes and cook until tender. <br> In a small saucepan heat butter and milk over low heat until butter is melted. Using a potato masher or electric beater, slowly blend milk mixture into potatoes until smooth and creamy. Season with salt and pepper to taste.",
-      picture:"img6.jpeg"
+      picture:"img6.jpg"
     },
     { //OBJECT RECIPE 7
       ingredients: ["3", "6", "8","15"],
@@ -110,7 +110,7 @@ REDI.dbInit = function () {
       mealplan: "lunch",
       name: "Pizza",
       preparation: "Pizza dough is a yeasted dough which requires active dry yeast.<br> Make sure the check the expiration date on the yeast package. You can use all purpose flour instead of the bread flour that is called for in the recipe, but bread flour is higher in gluten than all-purpose flour and will make a crispier crust for your pizza.",
-      picture:"img8.jpeg"
+      picture:"img8.jpg"
     },
 
     { //OBJECT RECIPE 9
@@ -125,14 +125,21 @@ REDI.dbInit = function () {
       mealplan: "lunch",
       name: "Grandmother's Buttermilk Cornbread",
       preparation: "Melt butter in large skillet. Remove from heat and stir in sugar.<br>Quickly add eggs and beat until well blended. Combine buttermilk with baking soda and stir into mixture in pan. Stir in cornmeal, flour, and salt until well blended and few lumps remain. Pour batter into the prepared pan.",
-      picture:"img10.jpeg"
+      picture:"img10.jpg"
     },
     { //OBJECT RECIPE 11
       ingredients: ["4", "6", "14"],
       mealplan: "lunch",
       name: "Chopped Chickpea Salad",
       preparation: "Canned chickpeas are our pick for convenience, but you can also cook up a batch of dried beans, if you like.<br>Chopped greens: We're partial to crunchy romaine, spicy arugula, or crisp red cabbage. You can even toss in some fresh herbs.Red onion: This brings a little bit of sweetness and a little bit of bite. Rinse them under cold water if you want a milder flavor.",
-      picture:"img11.jpeg"
+      picture:"img11.jpg"
+    },
+    { //OBJECT RECIPE 12
+      ingredients: ["4", "12", "16"],
+      mealplan: "lunch",
+      name: "Tomato-Cheese toast",
+      preparation: "Take a piece of bread and fill it with tomato and any other ingredient you fancy have in your fridge. Cover it with cheese and put it in the oven until the bread is toasted and the cheese is melted.",
+      picture:"img12.jpg"
     }
   ];
 

@@ -17,6 +17,7 @@ h1 {
  color: #BDBD4A ;
  margin-left: 15px;
 }
+
 h2 {
  font-family: 'Baloo Bhai', cursive;
  font-size: 50px;
@@ -43,10 +44,11 @@ h2 {
 #image {
   margin-left: 5px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .buttons {
- margin: 30px auto;
+ margin-bottom: 20px;
  text-align: center;
 }
 
