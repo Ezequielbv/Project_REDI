@@ -74,6 +74,10 @@ h2 {
   font-family: 'Baloo Bhai', cursive;
 }
 
+a:link, a:visited {
+	color: #fff;
+	text-decoration: none;
+}
 footer {
 	position: fixed;
 	bottom: 0;
