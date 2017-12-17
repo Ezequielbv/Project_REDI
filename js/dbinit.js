@@ -60,35 +60,35 @@ REDI.dbInit = function () {
       ingredients: ["1", "4", "5"],
       mealplan: "Breakfast",
       name: "Eggs with avocado",
-      preparation: "Heat a non-stick frying pan, very lightly brush the cut surface of the tomatoes with a little oil, then cook them, cut-side down, in the pan until they have softened and slightly caramelised. Meanwhile, heat a pan of water, carefully break in the eggs and leave to poach for 1-2 mins until the whites are firm but the yolks are still runny",
+      preparation: "Heat a pan with a little oil, brush the cut tomatoes, then cook them until they have softened. <br>Meanwhile, heat a pan of water, break in the eggs and leave to poach for 1-2 mins until the whites are firm but the yolks are still runny. <br>Smash the avocados and spread the in bread, put the eggs on the top and serve with the tomatoes",
       picture:"img1.jpg"
     },
     { //OBJECT RECIPE 2
       ingredients: ["6", "7", "8", "10"],
       mealplan: "Lunch",
       name: "Lasagne",
-      preparation: "Heat the oil in a large non-stick pan with meat and fry the onions and garlic for 5 mins, stirring frequently until softened. Tip in the courgettes, peppers and tomatoes with the tomato purée, bouillon and chopped basil. Stir well, cover and cook for 5 mins. Don't be tempted to add more liquid as plenty of moisture will come from the veg once they start cooking.",
+      preparation: "Heat the oil in a pan and fry the onions, peppers and garlic until softened. <br>Tip in the tomatoes and the meat and, when it is cooked, the tomato purée together with chopped basil. <br>Stir well, cover and cook for 5 mins. <br>Mount the first layer of lasaña pasta at the bottom of a pyrex and cover it with the sauce. Built the layers until it's over and put it in the oven until the pasta is done.",
       picture:"img2.jpg"
     },
     { //OBJECT RECIPE 3
       ingredients: ["6", "7", "8", "9"],
       mealplan: "Dinner",
       name: "Veggie Lasagne",
-      preparation: "Heat the oil in a large non-stick pan and fry the onions and garlic for 5 mins, stirring frequently until softened. Tip in the courgettes, peppers and tomatoes with the tomato purée, bouillon and chopped basil. Stir well, cover and cook for 5 mins. Don't be tempted to add more liquid as plenty of moisture will come from the veg once they start cooking.",
+      preparation: "Heat the oil in a pan and fry the onions, peppers and garlic until softened. Tip in courgettes, aubergines and tomatoes with the tomato purée, with chopped basil. <br>Stir well, cover and cook for 5 mins. <br>Mount the first layer of lasaña pasta at the bottom of a pyrex and cover it with the sauce. Built the layers until it's over and put it in the oven until the pasta is done.",
       picture:"img3.jpg"
     },
     { //OBJECT RECIPE 4
       ingredients: ["2", "11", "1"],
       mealplan: "Breakfast",
       name: "Pancakes",
-      preparation: "In a medium bowl, whisk together milk, butter (or oil), and egg. Add dry ingredients to milk mixture; whisk until just moistened (do not overmix; a few small lumps are fine).",
+      preparation: "In a medium bowl, whisk together milk, butter (or oil), and egg. Add flour, baking soda and sugar to milk mixture; whisk until just moistened (do not overmix; a few small lumps are fine). <br>Add the dough to a pan heat with butter. When bubbles come out in the surface, turn the pancake until goldener in both sides.",
       picture:"img4.jpg"
     },
     { //OBJECT RECIPE 5
       ingredients: ["1", "12", "13"],
       mealplan: "Breakfast",
       name: "Black beans & scrambled egg tacos",
-      preparation: "Heat oil in a large nonstick skillet on medium-high heat. Cook onion and garlic for 2 minutes, stirring often, or until beginning to soften. Stir in beans, salsa and cumin; reduce heat to medium-low. Simmer bean mixture, stirring occasionally, for 3 to 5 minutes or until warmed through and slightly thickened.  Remove skillet from heat, stir in lime juice and cover to keep warm.",
+      preparation: "Heat oil in a large skillet on medium-high heat. Cook onion and garlic until softened. Stir in beans, salsa and cumin; reduce heat to medium-low. <br>Simmer bean mixture, stirring occasionally, for 3 to 5 minutes or until warmed through and slightly thickened. <br>Remove skillet from heat, stir in lime juice and cover to keep warm.",
       picture:"img5.jpg"
     },
     { //OBJECT RECIPE 6
