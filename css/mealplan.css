@@ -98,3 +98,46 @@ footer {
 	font-size: 0.8em;
 	background-color: #111;
 }
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	body {
+		margin-left: 0px
+	}
+
+}
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+	h2 {
+		font-size: 100px;
+	}
+	.ingredient {
+		max-width: 50%;
+		flex: 0 0 50%;
+	}
+
+	#submit, #noLike {
+		width: 100%;
+		font-size: 2em;
+	}
+	.tags, #description, #recipes {
+		font-size: 2.5em;
+	}
+
+}
