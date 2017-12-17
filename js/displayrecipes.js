@@ -13,9 +13,9 @@ REDI.displayRecipes = function(selectedRecipes) {
     recipeImage = selectedRecipes[random].picture;
 
   document.getElementById('recipeContainer').style['background-color'] = 'rgba(21, 24, 28, 0.7)';
-  document.getElementById("recipes").innerHTML = recipeName;
-  document.getElementById("description").innerHTML = recipeDescription;
-  document.getElementById("image").src = "img/"+ recipeImage;
+  document.getElementById('recipes').innerHTML = recipeName;
+  document.getElementById('description').innerHTML = recipeDescription;
+  document.getElementById('image').src = 'img/'+ recipeImage;
 
   return random;
 };

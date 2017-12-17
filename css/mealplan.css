@@ -60,10 +60,17 @@ h2 {
 .tags {
   padding: 0 10px;
 }
+input[type=checkbox] {
+	display: none;
+}
+input[type=checkbox]:checked + label {
+	color: #FFF;
+	background-color: #BDBD4A;
+	border-radius: 5px;
+}
 
 .recipe {
   color:white;
-  /*background-color: rgba(21, 24, 28, 0.7);*/
   margin-bottom: 50px;
 }
 
@@ -75,7 +82,7 @@ h2 {
 }
 
 a:link, a:visited {
-	color: #fff;
+	color: #FFF;
 	text-decoration: none;
 }
 footer {
@@ -87,7 +94,7 @@ footer {
 	width: 100%;
 	height: 20px;
 	opacity: .6;
-	color: #fff;
+	color: #FFF;
 	font-size: 0.8em;
 	background-color: #111;
 }

@@ -1,7 +1,7 @@
 window.REDI = window.REDI || {};
 
 REDI.noLike = function (recipes, index, oldClickHandler) {
-	let btn = document.getElementById("noLike"),
+	let btn = document.getElementById('noLike'),
 		clickHandler = function () {
 			recipes.splice(index, 1);
 			index = REDI.displayRecipes(recipes);
@@ -12,7 +12,7 @@ REDI.noLike = function (recipes, index, oldClickHandler) {
 
 	btn.style.display = 'inline';
 
-	if (typeof oldClickHandler === "function") {
+	if (typeof oldClickHandler === 'function') {
 		btn.removeEventListener('click', oldClickHandler);
 	}
 
