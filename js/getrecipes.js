@@ -22,7 +22,7 @@ REDI.getRecipes = function(IDs, dbRecipes) {
       if ( !recipe.ingredients.includes(selectedIngredient)){
         isValid = false;
         document.getElementById('recipeContainer').style['background-color'] = 'rgba(21, 24, 28, 0.7)';
-        document.getElementById('recipes').innerHTML = 'Sadly, there are no recipes with this ingredients. We are working on it. <br> Contact us if you have some proposal!<br><a href="https://www.linkedin.com/in/davidramis/" target="_blank"><b>David</b></a> or <a href="https://www.linkedin.com/in/ezequielbv/" target="_blank"><b>Ezequiel</b></a>';
+        document.getElementById('recipes').innerHTML = 'Sadly, there have no recipes with this ingredients. We are working on it. <br> Contact us if you have some proposal!<br><a href="https://www.linkedin.com/in/davidramis/" target="_blank"><b>David</b></a> or <a href="https://www.linkedin.com/in/ezequielbv/" target="_blank"><b>Ezequiel</b></a>';
       }
     }
     if (isValid === true) {

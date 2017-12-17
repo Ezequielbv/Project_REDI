@@ -3,6 +3,7 @@
 }
 
 body {
+ font-family: 'Baloo Bhai', cursive;
  background-image: url(../img/bgg.jpeg);
  background-size: cover;
  background-position: 0% 95%;
@@ -12,14 +13,12 @@ body {
 }
 
 h1 {
- font-family: 'Baloo Bhai', cursive;
  font-size: 100px;
  color: #BDBD4A ;
  margin-left: 15px;
 }
 
 h2 {
- font-family: 'Baloo Bhai', cursive;
  font-size: 50px;
  color: #BDBD4A ;
  margin:15px 0 40px 15px;
@@ -36,7 +35,6 @@ h2 {
 
 #description {
   font-size: 16px;
-  font-family: 'Baloo Bhai', cursive;
   color: white;
   margin-top: 20px;
 }
@@ -54,7 +52,6 @@ h2 {
 
 .btn {
  margin-top: 20px;
- font-family: 'Baloo Bhai', cursive;
 }
 
 .tags {
@@ -82,7 +79,6 @@ input[type=checkbox]:hover + label {
   color: grey;
   font-size: 20px;
   padding: 5px;
-  font-family: 'Baloo Bhai', cursive;
 }
 
 a:link, a:visited {
