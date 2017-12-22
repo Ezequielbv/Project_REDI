@@ -40,9 +40,7 @@ h2 {
 }
 
 #image {
-  margin-left: 5px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+	margin: 20px 0 20px 5px;
 }
 
 .buttons {

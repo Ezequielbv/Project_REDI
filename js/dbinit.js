@@ -55,6 +55,12 @@ REDI.dbInit = function () {
     },
     18: {
       name: 'mushrooms'
+    },
+    19: {
+      name: 'rice'
+    },
+    20: {
+      name: 'red peppers'
     }
   };
 
@@ -153,6 +159,13 @@ REDI.dbInit = function () {
       name: 'Cous-cous',
       preparation: 'Put a small cup of water to boild, adding spices that you fancy, salt, pepper, olive oil and a hint of cinamon. <br>Once it´s boiling, add the same cup with Cous-cous, take it out of the fire and cover untill cous-cous absorbs the water. You can add whatever you want to this, like salmon, mushrooms, or tomatoes.',
       picture:'img13.jpg'
+    },
+    { //OBJECT RECIPE 14
+      ingredients: ['4', '6', '8', '13', '19', '20'],
+      mealplan: 'Lunch',
+      name: 'Chili-sin-Carne',
+      preparation: 'Heat the oil in a pan and fry the onions, red peppers and garlic until softened. <br> Tip in a can of black beans and chili fleaks, and add tomatoes puree (or fresh tomatoes), together with some other spices such as black pepper, curry and cinamon. Separately, while the beans and tomatoes are low-fire cooking, boild rice in a slightly salted water with a bit of oil. Once ready serve them together',
+      picture:'img-not-ready-2.jpg'
     }
   ];
 
