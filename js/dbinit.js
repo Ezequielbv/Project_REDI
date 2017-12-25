@@ -61,6 +61,9 @@ REDI.dbInit = function () {
     },
     20: {
       name: 'red peppers'
+    },
+    21: {
+      name: 'green peas'
     }
   };
 
@@ -166,6 +169,13 @@ REDI.dbInit = function () {
       name: 'Chili-sin-Carne',
       preparation: 'Heat the oil in a pan and fry the onions, red peppers and garlic until softened. <br> Tip in a can of black beans and chili fleaks, and add tomatoes puree (or fresh tomatoes), together with some other spices such as black pepper, curry and cinamon. Separately, while the beans and tomatoes are low-fire cooking, boild rice in a slightly salted water with a bit of oil. Once ready serve them together',
       picture:'img-not-ready-2.jpg'
+    },
+    { //OBJECT RECIPE 15
+      ingredients: ['3', '8', '21'],
+      mealplan: 'Lunch',
+      name: 'Potatoes with green peas',
+      preparation: 'Cover the bottom of a pot with olive oil fry the garlics until goldener and a bay leave. <br> Tip in the potatoes cut in big squares and stir constanly. Add the green peas (optional) and stir again. <br>Cover it with water and leave it boild until potatoes are soft and the water has mosly gone.',
+      picture:'img-not-ready.jpg'
     }
   ];
 
