@@ -25,6 +25,7 @@ h2 {
 }
 
 #showRecipes{
+	background-color: rgba(21, 24, 28, 0);
 	margin-top: 20px;
 }
 
@@ -33,14 +34,19 @@ h2 {
   font-size: 25px;
 }
 
-#description {
-  font-size: 16px;
-  color: white;
-  margin-top: 20px;
+#image {
+	margin: 20px;
 }
 
-#image {
-	margin: 20px 0 20px 5px;
+#description {
+	font-family: 'Bree Serif', serif;
+	max-width: 40%;
+	float: left;
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .buttons {
@@ -110,7 +116,9 @@ footer {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+	#description, #recipes {
+		max-width: 100%;
+	}
 }
 
 /********** Extra small devices only **********/
@@ -118,6 +126,9 @@ footer {
 	body {
 		margin-left: 0px;
 		margin-right: 0px;
+	}
+	#description, #recipes {
+		max-width: 100%;
 	}
 }
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -138,6 +149,7 @@ footer {
 		font-size: 1.7em;
 	}
 	#description, #recipes {
+		max-width: 100%;
 		font-size: 1.3em;
 	}
 

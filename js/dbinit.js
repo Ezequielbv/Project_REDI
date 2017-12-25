@@ -60,10 +60,13 @@ REDI.dbInit = function () {
       name: 'rice'
     },
     20: {
-      name: 'red peppers'
+      name: 'green/red peppers'
     },
     21: {
       name: 'green peas'
+    },
+    22: {
+      name: 'lentils'
     }
   };
 
@@ -160,21 +163,35 @@ REDI.dbInit = function () {
       ingredients: ['17', '18', '15', '4'],
       mealplan: 'Lunch',
       name: 'Cous-cous',
-      preparation: 'Put a small cup of water to boild, adding spices that you fancy, salt, pepper, olive oil and a hint of cinamon. <br>Once it´s boiling, add the same cup with Cous-cous, take it out of the fire and cover untill cous-cous absorbs the water. You can add whatever you want to this, like salmon, mushrooms, or tomatoes.',
+      preparation: 'Put a small cup of water to boil, adding spices that you fancy, salt, pepper, olive oil and a hint of cinnamon. <br>Once it´s boiling, add the same cup with couscous, take it out of the fire and cover until couscous absorbs the water. You can add whatever you want to this, like salmon, mushrooms, or tomatoes.',
       picture:'img13.jpg'
     },
     { //OBJECT RECIPE 14
       ingredients: ['4', '6', '8', '13', '19', '20'],
       mealplan: 'Lunch',
       name: 'Chili-sin-Carne',
-      preparation: 'Heat the oil in a pan and fry the onions, red peppers and garlic until softened. <br> Tip in a can of black beans and chili fleaks, and add tomatoes puree (or fresh tomatoes), together with some other spices such as black pepper, curry and cinamon. Separately, while the beans and tomatoes are low-fire cooking, boild rice in a slightly salted water with a bit of oil. Once ready serve them together',
+      preparation: 'Heat the oil in a pan and fry the onions, red peppers and garlic until softened. <br> Tip in a can of black beans and chili flakes, and add tomatoes puree (or fresh tomatoes), together with some other spices such as black pepper, curry and cinnamon. Separately, while the beans and tomatoes are low-fire cooking, boil rice in slightly salted water with a bit of oil. Once ready serve them together',
       picture:'img-not-ready-2.jpg'
     },
     { //OBJECT RECIPE 15
       ingredients: ['3', '8', '21'],
       mealplan: 'Lunch',
       name: 'Potatoes with green peas',
-      preparation: 'Cover the bottom of a pot with olive oil fry the garlics until goldener and a bay leave. <br> Tip in the potatoes cut in big squares and stir constanly. Add the green peas (optional) and stir again. <br>Cover it with water and leave it boild until potatoes are soft and the water has mosly gone.',
+      preparation: 'Cover the bottom of a pot with olive oil fry the garlics until browned and a bay leave. <br> Tip in the potatoes cut in big squares and stir constantly. Add the green peas (optional) and stir again. <br>Cover it with water and leave it boils until potatoes are soft and most of the water has gone.',
+      picture:'img-not-ready.jpg'
+    },
+    { //OBJECT RECIPE 16
+      ingredients: ['1', '2', '11'],
+      mealplan: 'Breakfast',
+      name: 'Creppes',
+      preparation: 'With the measure of a cup, add one cup and a half of flour, one cup of milk, a spoon of sugar and a hint of salt (and cinnamon if you fancy) to a blender and mix. <br>Add some butter to a pan and bring it to heat. Pour the batter until coats the surface of the pan evenly. <br>Cook the crepe until the bottom is light brown, turn and cook the other side. <br>Serve with whatever you have! Salty or sweet.',
+      picture:'img-not-ready-2.jpg'
+    },
+    { //OBJECT RECIPE 17
+      ingredients: ['4', '6', '8', '20', '22'],
+      mealplan: 'Lunch',
+      name: 'Lentils soup',
+      preparation: 'Add in hot water lentils half an hour before. <br>Add one tomato, one green pepper, one onion, half garlic head, with parsley, oil, salt and two spoons of red paprika. You can add some spicy chorizo if you fancy. <br>Cover it with water and leave it cooking for 20-30 minutes in an open pot.',
       picture:'img-not-ready.jpg'
     }
   ];
