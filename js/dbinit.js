@@ -67,6 +67,15 @@ REDI.dbInit = function () {
     },
     22: {
       name: 'lentils'
+    },
+    23: {
+      name: 'fish'
+    },
+    24: {
+      name: 'celery'
+    },
+    25: {
+      name: 'carrots'
     }
   };
 
@@ -192,6 +201,13 @@ REDI.dbInit = function () {
       mealplan: 'Lunch',
       name: 'Lentils soup',
       preparation: 'Add in hot water lentils half an hour before. <br>Add one tomato, one green pepper, one onion, half garlic head, with parsley, oil, salt and two spoons of red paprika. You can add some spicy chorizo if you fancy. <br>Cover it with water and leave it cooking for 20-30 minutes in an open pot.',
+      picture:'img-not-ready.jpg'
+    },
+    { //OBJECT RECIPE 18
+      ingredients: ['3', '4', '6', '8', '23', '24', '25'],
+      mealplan: 'Dinner',
+      name: 'Fish soup',
+      preparation: 'Cut all the vegetables (tomato, onion, garlic, celery, carrots and potatoes), add them to a pot and cover with water, together with a spoon of olive oil, salt and pepper. <br>Boil for around 20 minutes, until carrots and potatoes are softened, and then add the fish. Boil for another 5 or 10 minutes until cooked.',
       picture:'img-not-ready.jpg'
     }
   ];
