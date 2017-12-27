@@ -23,7 +23,7 @@ h2 {
 	color: #BDBD4A ;
 	margin: 15px 0 40px 15px;
 }
-h2 a, h2 a:visited {
+h2 a, h2 a:link, h2 a:visited {
 	color: #BDBD4A ;
 }
 h2 a:hover, h2 a:focus {
