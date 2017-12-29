@@ -13,7 +13,7 @@ REDI.displayRecipes = function(selectedRecipes) {
     recipeImage = selectedRecipes[random].picture;
 
   document.getElementById('recipeContainer').style['background-color'] = 'rgba(21, 24, 28, 0.7)';
-  document.getElementById('recipes').innerHTML = recipeName;
+  document.getElementById('recipeName').innerHTML = recipeName;
   document.getElementById('description').innerHTML = recipeDescription;
   document.getElementById('image').innerHTML = '<img src="img/' + recipeImage + '" alt="recipe-image" class="img-fluid">';
 

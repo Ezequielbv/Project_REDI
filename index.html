@@ -20,18 +20,19 @@
 
 <body>
 
- <div class="container">
+ <div class="container" id="main">
   <h1>  </h1>
   <h2><a href="index.html">Are you hungry?</a></h2>
 
-  <div class="container-fluid">
+  <div class="container-fluid" id="ingredientContainer">
     <div class="row" id="listIngredients">
+    </div>
+
+    <div>
+      <button type="button" class="btn btn-success" id="submit">What can I cook</button>
     </div>
   </div>
 
-  <div>
-    <button type="button" class="btn btn-success" id="submit">What can I cook</button>
-  </div>
 
 <!-- *** Mealplan ***
 
@@ -47,11 +48,11 @@
 
   <div class= "container-fluid section recipe" id="recipeContainer">
     <div class= "row" id="showRecipes">
-      <div class= "col-md-12 text-center" id="recipes"></div>
+      <div class= "col-md-12 text-center" id="recipeName"></div>
       <div class="col-md-6" id="image"> </div>
       <div class= "col-md-6" id="description"></div>
     </div>
-    <button type="button" style="display: none" class="btn btn-success buttons" id="noLike">I don't like it</button>
+    <button type="button" style="display: none" class="btn btn-success" id="noLike">Another option</button>
   </div>
  </div>
 
