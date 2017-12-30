@@ -16,6 +16,5 @@ REDI.displayRecipes = function(selectedRecipes) {
   document.getElementById('recipeName').innerHTML = recipeName;
   document.getElementById('description').innerHTML = recipeDescription;
   document.getElementById('image').innerHTML = '<img src="img/' + recipeImage + '" alt="recipe-image" class="img-fluid">';
-
   return random;
 };
