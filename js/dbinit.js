@@ -243,6 +243,15 @@ REDI.dbInit = function () {
       '<p>Boil for around 20 minutes, until carrots and potatoes are softened, and then add the fish.</p>' +
       '<p>Boil for another 5 or 10 minutes until cooked.</p>',
       picture:'img-not-ready.jpg'
+    },
+    { //OBJECT RECIPE 19
+      ingredients: ['1', '12'],
+      mealplan: 'Dinner',
+      name: 'Soft-boiled Eggs',
+      preparation: '<p>Some times you are not in the mood to have a strong dinner or to spend a lot of time preparing something.</p>' +
+      '<p>Tip a couple of eggs in boiling water for 5 minutes. Serve them cut with a hint of salt and pepper and a spoon of olive oil.</p>' +
+      '<p>Add some toasted bread if you fancy and that \'\ it!</p>',
+      picture:'img-not-ready.jpg'
     }
   ];
 
